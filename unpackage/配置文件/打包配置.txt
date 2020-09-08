@@ -1,0 +1,6 @@
+包名：io.yunxi.test
+
+打包安卓 生成安卓证书 test --- 就是项目名 （简写），根据每个项目的不同进行替换 test
+keytool -genkey -alias test -keyalg RSA -keysize 2048 -validity 36500 -keystore test.keystore
+
+CN=yun, OU=xi, O=yunxi, L=cz, ST=ah, C=cn
